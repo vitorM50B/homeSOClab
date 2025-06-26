@@ -75,7 +75,6 @@ The Windows 11 VM is hosted inside a typical Azure environment:
 
 🛑 *NSG was intentionally misconfigured to allow inbound RDP from anywhere * to simulate a vulnerable asset.*
 
-![image](https://github.com/user-attachments/assets/8ac68262-a04b-413d-b6be-fb2f71a50ca5)
 
 
 ## 🔐 NSG Rule Configuration
