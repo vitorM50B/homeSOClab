@@ -33,6 +33,7 @@ SecurityEvent
 | where EventID == 4625
 | evaluate ipv4_lookup(GeoIPDB, IpAddress, network)
 | summarize count() by IpAddress, cityname, countryname
+```
 
 
 ## 🗺️ Project Dashboard Visual Examples
