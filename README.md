@@ -13,7 +13,7 @@ This project is inspired demonstrates how to deploy a functional cloud-based SOC
 ## ⚙️ Environment Setup  
 - **Platform:** Microsoft Azure (Free $200 budget)  
 - **Resources Used:**
-  - Windows 10 VM with open RDP (public IP) to attract attackers/bots  
+  - Windows 11 VM with open RDP (public IP) to attract attackers/bots  
   - Log Analytics Workspace  
   - Azure Sentinel  
   - Geo-IP CSV Watchlist  
@@ -58,3 +58,18 @@ This project reinforced multiple practical skills and concepts relevant to real-
 - Gained insight into **cloud-native SIEM workflows**, including how Sentinel ingests data, triggers alerts, and supports automation through apps and playbooks.
   
 
+------------------------------------------------------------------------
+
+# 🧱 Azure Lab Infrastructure
+
+The Windows 11 VM is hosted inside a typical Azure environment:
+
+- **Azure Subscription** → Contains everything
+- **Resource Group** → Organizes lab assets
+- **Virtual Network (VNet)** → Connects resources privately
+- **NSG (Network Security Group)** → Set with open rules for attacker visibility
+- **Windows 11 VM** → Honeypot with public IP and RDP port exposed
+
+🛑 *NSG was intentionally misconfigured to allow inbound RDP from anywhere * to simulate a vulnerable asset.*
+
+![image](https://github.com/user-attachments/assets/c254e29a-eba6-4e31-9930-d81a01721f2f)
