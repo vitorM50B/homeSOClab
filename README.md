@@ -60,6 +60,7 @@ This project reinforced multiple practical skills and concepts relevant to real-
 
 ------------------------------------------------------------------------
 
+
 # 🧱 Azure Lab Infrastructure
 
 The Windows 11 VM is hosted inside a typical Azure environment:
@@ -72,4 +73,11 @@ The Windows 11 VM is hosted inside a typical Azure environment:
 
 🛑 *NSG was intentionally misconfigured to allow inbound RDP from anywhere * to simulate a vulnerable asset.*
 
+![image](https://github.com/user-attachments/assets/8ac68262-a04b-413d-b6be-fb2f71a50ca5)
+
+
+## 🔐 NSG Rule Configuration
+
 ![image](https://github.com/user-attachments/assets/c254e29a-eba6-4e31-9930-d81a01721f2f)
+
+
