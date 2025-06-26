@@ -4,6 +4,10 @@
 
 This project is inspired demonstrates how to deploy a functional cloud-based SOC using **Azure Sentinel**, **Log Analytics**, and a simulated **honeypot**.
 
+
+![image](https://github.com/user-attachments/assets/ca7a885b-99a1-4c93-9267-7cd9631c029c)
+
+
 ---------------------------------------------------------------------
 
 ## ⚙️ Environment Setup  
