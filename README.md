@@ -40,3 +40,17 @@ SecurityEvent
 
 ![image](https://github.com/user-attachments/assets/f48b51a5-424f-4876-8f3f-5297d7aec183)
 *Azure Sentinel map visualizing real outsider attack origins.*
+
+
+## 🧠 Learning Outcome
+
+This project reinforced multiple practical skills and concepts relevant to real-world cybersecurity operations:
+
+- Acquired hands-on experience configuring and monitoring a **cloud-based Security Operations Center (SOC)** using Azure Sentinel.
+- Demonstrated how a publicly exposed virtual machine can serve as a **controlled honeypot** to collect telemetry on brute-force login attempts and malicious IP scanning activity, alongside attacker activity for training purposes.
+- Leveraged **Log Analytics and KQL** to correlate failed authentication attempts with geolocation data from a custom **Geo-IP watchlist**, producing visual dashboards that aid threat attribution.
+- Showcased the importance of **proactive threat hunting** by building and tuning queries that surface meaningful patterns from noisy log data.
+- Reinforced the concept of **alert enrichment and context building**, critical for effective incident triage and response workflows.
+- Gained insight into **cloud-native SIEM workflows**, including how Sentinel ingests data, triggers alerts, and supports automation through apps and playbooks.
+  
+
