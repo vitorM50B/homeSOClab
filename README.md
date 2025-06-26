@@ -19,8 +19,8 @@ This project is inspired demonstrates how to deploy a functional cloud-based SOC
 
 ## 🔍 Attack Simulation  
 1. Deployed Windows VM with fully open NSG  
-2. Waited for brute-force attacks from real-world sources  
-3. Logs collected via Log Analytics  
+2. Waited for brute-force attacks from real-world sources to study how attackers behave 
+3. Logs are collected via Log Analytics  
 4. Azure Sentinel processed logs and generated alerts  
 5. Geo-IP Watchlist mapped attacker IPs to locations on a world map
 
