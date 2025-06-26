@@ -63,6 +63,8 @@ This project reinforced multiple practical skills and concepts relevant to real-
 
 # 🧱 Azure Lab Infrastructure
 
+![image](https://github.com/user-attachments/assets/4d2eb718-0185-4472-a221-0e26bb1a06a5)
+
 The Windows 11 VM is hosted inside a typical Azure environment:
 
 - **Azure Subscription** → Contains everything
