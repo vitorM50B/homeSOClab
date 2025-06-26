@@ -1,4 +1,4 @@
-# 🛡️ homeSOClab  
+# 🛡 homeSOClab  
 
 **Home SOC Lab created using Azure's free subscription**
 
@@ -10,7 +10,7 @@ This project demonstrates how to deploy a functional cloud-based SOC using **Azu
 
 ---------------------------------------------------------------------
 
-## ⚙️ Environment Setup  
+## ⚙ Environment Setup  
 - **Platform:** Microsoft Azure (Free $200 budget)  
 - **Resources Used:**
   - Windows 11 VM with open RDP (public IP) to attract attackers/bots  
@@ -21,7 +21,7 @@ This project demonstrates how to deploy a functional cloud-based SOC using **Azu
 
 ---------------------------------------------------------------------
 
-## 🔍 Attack Simulation  
+##  Attack Simulation  
 1. Deployed Windows VM with fully open NSG  
 2. Waited for brute-force attacks from real-world sources to study how attackers behave 
 3. Logs are collected via Log Analytics  
@@ -30,7 +30,7 @@ This project demonstrates how to deploy a functional cloud-based SOC using **Azu
 
 ---------------------------------------------------------------------
 
-## 📊 Sample KQL Query
+##  Sample KQL Query
 ```kql
 let GeoIPDB = _GetWatchlist("geoip");
 SecurityEvent
@@ -40,13 +40,13 @@ SecurityEvent
 ```
 
 
-## 🗺️ Project Dashboard Visual Examples
+## 🗺 Project Dashboard Visual Examples
 
 ![image](https://github.com/user-attachments/assets/f48b51a5-424f-4876-8f3f-5297d7aec183)
 *Azure Sentinel map visualizing real outsider attack origins.*
 
 
-## 🧠 Learning Outcome
+## Learning Outcome
 
 This project reinforced multiple practical skills and concepts relevant to real-world cybersecurity operations:
 
@@ -61,7 +61,7 @@ This project reinforced multiple practical skills and concepts relevant to real-
 ------------------------------------------------------------------------
 
 
-# 🧱 Azure Lab Infrastructure
+#  Azure Lab Infrastructure
 
 ![image](https://github.com/user-attachments/assets/4d2eb718-0185-4472-a221-0e26bb1a06a5)
 
@@ -76,7 +76,7 @@ The Windows 11 VM is hosted inside a typical Azure environment:
 🛑 *The NSG was intentionally misconfigured to allow inbound RDP (port 3389) from any source (0.0.0.0/0), simulating an exposed asset for attacker discovery.*
 
 
-## 🔐 NSG Rule Configuration
+##  NSG Rule Configuration
 
 ![image](https://github.com/user-attachments/assets/c254e29a-eba6-4e31-9930-d81a01721f2f)
 
