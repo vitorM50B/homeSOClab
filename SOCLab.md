@@ -2,7 +2,7 @@
 
 **Home SOC Lab created using Azure's free subscription**
 
-This project is inspired demonstrates how to deploy a functional cloud-based SOC using **Azure Sentinel**, **Log Analytics**, and a simulated **honeypot**.
+This project demonstrates how to deploy a functional cloud-based SOC using **Azure Sentinel**, **Log Analytics**, and a simulated **honeypot**.
 
 
 ![image](https://github.com/user-attachments/assets/ca7a885b-99a1-4c93-9267-7cd9631c029c)
@@ -73,8 +73,7 @@ The Windows 11 VM is hosted inside a typical Azure environment:
 - **NSG (Network Security Group)** → Set with open rules for attacker visibility
 - **Windows 11 VM** → Honeypot with public IP and RDP port exposed
 
-🛑 *NSG was intentionally misconfigured to allow inbound RDP from anywhere * to simulate a vulnerable asset.*
-
+🛑 *The NSG was intentionally misconfigured to allow inbound RDP (port 3389) from any source (0.0.0.0/0), simulating an exposed asset for attacker discovery.*
 
 
 ## 🔐 NSG Rule Configuration
