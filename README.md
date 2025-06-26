@@ -33,3 +33,9 @@ SecurityEvent
 | where EventID == 4625
 | evaluate ipv4_lookup(GeoIPDB, IpAddress, network)
 | summarize count() by IpAddress, cityname, countryname
+
+
+## 🗺️ Project Dashboard Visual Examples
+
+![image](https://github.com/user-attachments/assets/f48b51a5-424f-4876-8f3f-5297d7aec183)
+*Azure Sentinel map visualizing real outsider attack origins.*
