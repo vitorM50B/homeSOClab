@@ -1,4 +1,4 @@
-# 🛡 homeSOClab  
+#  homeSOClab  
 
 **Home SOC Lab created using Azure's free subscription**
 
@@ -10,7 +10,7 @@ This project demonstrates how to deploy a functional cloud-based SOC using **Azu
 
 ---------------------------------------------------------------------
 
-## ⚙ Environment Setup  
+##  Environment Setup  
 - **Platform:** Microsoft Azure (Free $200 budget)  
 - **Resources Used:**
   - Windows 11 VM with open RDP (public IP) to attract attackers/bots  
@@ -40,7 +40,7 @@ SecurityEvent
 ```
 
 
-## 🗺 Project Dashboard Visual Examples
+##  Project Dashboard Visual Examples
 
 ![image](https://github.com/user-attachments/assets/f48b51a5-424f-4876-8f3f-5297d7aec183)
 *Azure Sentinel map visualizing real outsider attack origins.*
@@ -73,7 +73,7 @@ The Windows 11 VM is hosted inside a typical Azure environment:
 - **NSG (Network Security Group)** → Set with open rules for attacker visibility
 - **Windows 11 VM** → Honeypot with public IP and RDP port exposed
 
-🛑 *The NSG was intentionally misconfigured to allow inbound RDP (port 3389) from any source (0.0.0.0/0), simulating an exposed asset for attacker discovery.*
+ *The NSG was intentionally misconfigured to allow inbound RDP (port 3389) from any source (0.0.0.0/0), simulating an exposed asset for attacker discovery.*
 
 
 ##  NSG Rule Configuration
